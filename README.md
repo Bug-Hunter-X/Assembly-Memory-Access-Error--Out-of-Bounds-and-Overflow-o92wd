@@ -1,0 +1,3 @@
+# Assembly Memory Access Bug
+
+This repository demonstrates a common error in assembly programming: accessing memory outside of allocated bounds or causing an integer overflow in address calculations.  This can lead to segmentation faults or other unpredictable behavior. The `bug.asm` file contains the erroneous code, while `bugSolution.asm` provides a corrected version with improved bounds checking and overflow prevention.
